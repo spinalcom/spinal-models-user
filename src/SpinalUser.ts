@@ -25,6 +25,7 @@
 export interface UserInterface {
   id?: string;
   name: string;
+  firstname?: string;
   type?: string;
   email?: string;
   password?: string;
